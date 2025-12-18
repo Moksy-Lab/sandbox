@@ -3,91 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Template</title>
+    <title>Sortable Table Example</title>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJgP+X6c4g7mV5s4pS0uMnlE5eGg1r5b7D6lZ7X5H5kZr5vF4dPppV5aW4sq" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Moksy</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1 class="display-4">Welcome to Moksy</h1>
-            <p class="lead">The best platform for automated website creation.</p>
-            <a href="#features" class="btn btn-light btn-lg">Learn More</a>
-        </div>
-    </header>
-
-    <!-- Features Section -->
-    <section id="features" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Our Features</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Feature 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Feature 1</h5>
-                            <p class="card-text">Description of Feature 1. It's great for building dynamic websites quickly.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Feature 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Feature 2</h5>
-                            <p class="card-text">Description of Feature 2. Simplifies automation for creating templates and more.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Feature 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Feature 3</h5>
-                            <p class="card-text">Description of Feature 3. Perfect for creating scalable and dynamic websites.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 Moksy AI. All Rights Reserved.</p>
-    </footer>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Sortable Table with Moksy Data</h2>
+        <table class="table table-striped" id="data-table">
+            <thead class="table-dark">
+                <tr>
+                    <th onclick="sortTable(0)" style="cursor:pointer">ID</th>
+                    <th onclick="sortTable(1)" style="cursor:pointer">Category</th>
+                    <th onclick="sortTable(2)" style="cursor:pointer">Unique ID</th>
+                    <th onclick="sortTable(3)" style="cursor:pointer">Description</th>
+                    <th onclick="sortTable(4)" style="cursor:pointer">Keywords</th>
+                    <th onclick="sortTable(5)" style="cursor:pointer">URL</th>
+                    <th onclick="sortTable(6)" style="cursor:pointer">Accuracy</th>
+                    <th onclick="sortTable(7)" style="cursor:pointer">Issues</th>
+                    <th onclick="sortTable(8)" style="cursor:pointer">Total Moksy.ai</th>
+                    <th onclick="sortTable(9)" style="cursor:pointer">Total Moksy.com</th>
+                    <th onclick="sortTable(10)" style="cursor:pointer">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bootcamp</td>
+                    <td>bootcamp123</td>
+                    <td>Intensive coding bootcamp for developers.</td>
+                    <td>focusing, coding, intensive, paced, training</td>
+                    <td><a href="https://moksy.ai/bootcamp" target="_blank">Link</a></td>
+                    <td>90%</td>
+                    <td>2</td>
+                    <td>100</td>
+                    <td>95</td>
+                    <td>195</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Webinar</td>
+                    <td>webinar456</td>
+                    <td>Online live or recorded seminar.</td>
+                    <td>recorded, lectures, seminar, online</td>
+                    <td><a href="https://moksy.ai/webinar" target="_blank">Link</a></td>
+                    <td>85%</td>
+                    <td>1</td>
+                    <td>90</td>
+                    <td>80</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Crash Course</td>
+                    <td>crash_course789</td>
+                    <td>Rapid learning of a subject in a short period.</td>
+                    <td>rapid, condensed, learning, subject</td>
+                    <td><a href="https://moksy.ai/crash-course" target="_blank">Link</a></td>
+                    <td>92%</td>
+                    <td>3</td>
+                    <td>110</td>
+                    <td>105</td>
+                    <td>215</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>DIY</td>
+                    <td>diy101</td>
+                    <td>Self-guided learning where individuals explore topics.</td>
+                    <td>learning, independently, topic, where, individuals</td>
+                    <td><a href="https://moksy.ai/diy" target="_blank">Link</a></td>
+                    <td>88%</td>
+                    <td>2</td>
+                    <td>95</td>
+                    <td>90</td>
+                    <td>185</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Seminar</td>
+                    <td>seminar999</td>
+                    <td>Discussion-based training led by experts.</td>
+                    <td>based, training, expert, discussion</td>
+                    <td><a href="https://moksy.ai/seminar" target="_blank">Link</a></td>
+                    <td>87%</td>
+                    <td>1</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>165</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <!-- Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybH2U0l6sbBHDf+M4O4lXrYPyHiW7vuJlR85p7BhM1gZB2Ne3v" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqL/dW0b0y5l6/iw6zq4Z8Fh8z5eF0V0T91iP+74lKojL" crossorigin="anonymous"></script>
+
+    <!-- Sortable Table Script -->
+    <script>
+        function sortTable(n) {
+            const table = document.getElementById("data-table");
+            const rows = table.rows;
+            let switching = true;
+            let shouldSwitch, dir = "asc", switchCount = 0;
+
+            while (switching) {
+                switching = false;
+                const rowsArray = Array.from(rows).slice(1); // Skip header row
+                for (let i = 0; i < rowsArray.length - 1; i++) {
+                    shouldSwitch = false;
+                    const x = rowsArray[i].cells[n];
+                    const y = rowsArray[i + 1].cells[n];
+
+                    if (dir === "asc" && x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase() ||
+                        dir === "desc" && x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+
+                if (shouldSwitch) {
+                    rowsArray[i].parentNode.insertBefore(rowsArray[i + 1], rowsArray[i]);
+                    switching = true;
+                    switchCount++;
+                } else {
+                    if (switchCount === 0 && dir === "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+    </script>
 
 </body>
 </html>
