@@ -1,0 +1,583 @@
+/* #numb(numbNavbar) #css starts  */
+.numbNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.numbNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.numbNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.numbNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #numb(numbNavbar) #css ends  */
+
+/* #humor(humorHero) #css starts  */
+.humorHero .images {
+    max-height: 50px;
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.humorHero .headline {
+    margin-bottom: 40px;
+}
+
+.humorHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+/* #humor(humorHero) #css ends  */
+
+/* #croza(crozaClients) #css starts  */
+.crozaClients #clients .clients-wrap {
+    margin-bottom: 20px
+}
+
+.crozaClients img {
+    max-height: 150px;
+    max-width: 150px
+}
+
+.crozaClients #clients .client-logo {
+    padding: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100px
+}
+
+/* #croza(crozaClients) #css ends  */
+
+/* #pulox(puloxProduct) #css starts  */
+.puloxProduct .product-grid {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.puloxProduct .product-grid:before {
+    content: "";
+    height: 81%;
+    width: 100%;
+    background: var(--color-background-primary);
+    border: 1px solid var(--shadow-dark);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+
+.puloxProduct .product-grid:hover:before {
+    opacity: 1;
+    height: 100%;
+}
+
+.puloxProduct .product-grid .product-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.puloxProduct .product-grid .product-image a {
+    display: block;
+    height: 100%;
+}
+
+.puloxProduct .product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.puloxProduct .product-grid .pic-1 {
+    opacity: 1;
+    transition: all 0.5s ease-out 0s;
+}
+
+.puloxProduct .product-grid:hover .pic-1 {
+    opacity: 0;
+}
+
+.puloxProduct .product-grid .pic-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease-out 0s;
+}
+
+.puloxProduct .product-grid:hover .pic-2 {
+    opacity: 1;
+}
+
+.puloxProduct .product-grid .social {
+    width: 120px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -23px;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+}
+
+.puloxProduct .product-grid:hover .social {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.puloxProduct .product-grid .social li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.puloxProduct .product-grid .social li a {
+    color: var(--dark);
+    background: var(--color-background-primary);
+    font-size: var(--font-size-md);
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--shadow-light);
+    border-radius: 50%;
+    margin: 0 2px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 25px;
+}
+
+.puloxProduct .product-grid .social li a:hover {
+    background: var(--color-secondary);
+    color: var(--color-background-primary);
+}
+
+.puloxProduct .product-grid .social li a i {
+    line-height: inherit;
+}
+
+.puloxProduct .product-grid .product-new-label,
+.puloxProduct .product-grid .product-discount-label {
+    background-color: var(--color-secondary);
+    color: var(--color-background-primary);
+    font-size: var(--font-size-md);
+    padding: 2px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.3s;
+}
+
+.puloxProduct .product-grid:hover .product-new-label,
+.puloxProduct .product-grid:hover .product-discount-label {
+    opacity: 0;
+}
+
+.puloxProduct .product-grid .product-content {
+    z-index: -1;
+    padding: 15px;
+    text-align: left;
+}
+
+.puloxProduct .product-grid .title {
+    font-size: var(--font-size-sm);
+    text-transform: capitalize;
+    margin: 0 0 7px;
+    transition: all 0.3s ease 0s;
+}
+
+.puloxProduct .product-grid .title a {
+    color: var(--dark);
+}
+
+.puloxProduct .product-grid:hover .title {
+    opacity: 0;
+}
+
+.puloxProduct .product-grid .price {
+    color: var(--dark);
+    font-size: var(--font-size-base);
+    letter-spacing: 1px;
+    font-weight: var(--font-weight-semibold);
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.puloxProduct .product-grid .price span {
+    color: var(--neutral-light);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 0;
+    text-decoration: line-through;
+    text-align: left;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.puloxProduct .product-grid .rating {
+    padding: 0;
+    margin: -22px 0 0;
+    list-style: none;
+    text-align: right;
+    display: block;
+}
+
+.puloxProduct .product-grid .rating li {
+    color: var(--color-warning);
+    font-size: var(--font-size-sm);
+    display: inline-block;
+}
+
+.puloxProduct .product-grid .rating li.disable {
+    color: var(--neutral-dark);
+}
+
+@media only screen and (max-width: 1200px) {
+    .puloxProduct .product-grid .rating {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .puloxProduct .product-grid {
+        margin-bottom: 30px;
+    }
+
+    .puloxProduct .product-grid .rating {
+        margin: -22px 0 0;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .puloxProduct .product-grid .rating {
+        margin: 0;
+    }
+}
+
+/* #pulox(puloxProduct) #css ends  */
+
+/* #cjaime(cjaimeCTA) #css starts  */
+.cjaimeCTA .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.cjaimeCTA .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.cjaimeCTA .lead {
+    color: var(--color-text-primary);
+}
+
+/* #cjaime(cjaimeCTA) #css ends  */
+
+/* #cerulean(ceruleanCategories) #css starts  */
+    /* Cerulean Categories Component Styles */
+    /* =====  SECTION HEADER  ===== */
+    .ceruleanCategories .categories .section-header {
+        text-align: center;
+        margin-bottom: var(--spacing-2xl);
+      }
+  
+      .ceruleanCategories .categories .section-header h2 {
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+        margin: 0 0 var(--spacing-xs);
+        font-family: var(--font-family-base);
+      }
+  
+      .ceruleanCategories .categories .section-header p {
+        font-size: var(--font-size-md);
+        color: var(--color-text-secondary);
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: var(--font-family-base);
+      }
+  
+      /* =====  CATEGORIES GRID  ===== */
+      .ceruleanCategories .categories-grid {
+        display: grid;
+        gap: var(--spacing-lg);
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+  
+      /* =====  CARD STYLES  ===== */
+      .ceruleanCategories .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: inherit;
+        background: var(--color-surface);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-2xl) var(--spacing-lg);
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition-duration) ease;
+        border: 1px solid var(--color-border);
+        overflow: hidden;
+      }
+  
+      /* Card icon styling */
+      .ceruleanCategories .card .icon {
+        font-size: var(--font-size-3xl);
+        margin-bottom: var(--spacing-md);
+        transition: transform var(--transition-duration) ease;
+      }
+  
+      /* Card title styling */
+      .ceruleanCategories .card .title {
+        font-size: var(--font-size-lg);
+        font-weight: var(--font-weight-semibold);
+        margin: 0;
+        font-family: var(--font-family-base);
+        color: var(--color-text-primary);
+      }
+  
+      /* Card description styling */
+      .ceruleanCategories .card .desc {
+        font-size: var(--font-size-sm);
+        margin-top: var(--spacing-sm);
+        opacity: 0;
+        transform: translateY(6px);
+        transition: opacity var(--transition-duration) ease, transform var(--transition-duration) ease;
+        color: var(--color-text-secondary);
+        text-align: center;
+        font-family: var(--font-family-base);
+      }
+  
+      /* Card hover and focus states */
+      .ceruleanCategories .card:hover,
+      .ceruleanCategories .card:focus,
+      .ceruleanCategories .card:target {
+        background: var(--color-accent);
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+        justify-content: flex-start;
+      }
+  
+      .ceruleanCategories .card:hover .icon,
+      .ceruleanCategories .card:focus .icon,
+      .ceruleanCategories .card:target .icon {
+        transform: scale(1.1);
+      }
+  
+      .ceruleanCategories .card:hover .desc,
+      .ceruleanCategories .card:focus .desc,
+      .ceruleanCategories .card:target .desc {
+        opacity: 1;
+        transform: translateY(0);
+      }
+  
+      /* Focus styles for accessibility */
+      .ceruleanCategories .card:focus {
+        outline: 3px dashed var(--color-primary);
+        outline-offset: 4px;
+      }
+  
+      /* =====  RESPONSIVE DESIGN  ===== */
+      @media (min-width: 1200px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+  
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+  
+      @media (max-width: 767px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+/* #cerulean(ceruleanCategories) #css ends  */
+
+/* #county(countyCounters) #css starts  */
+
+.countyCounters .counter-box {
+    display: block;
+    background: var(--color-white);
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.countyCounters .counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-md);
+}
+
+.countyCounters .counter-box i {
+    font-size: var(--font-size-xxlTwo);
+    margin: 0 0 15px;
+    color: var(--color-text-secondary);
+}
+
+.countyCounters .counter {
+    display: block;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-secondary);
+    line-height: 28px
+}
+
+.countyCounters .counter-box.colored {
+    background: var(--color-secondary);
+}
+
+.countyCounters .counter-box.colored p,
+.countyCounters .counter-box.colored i,
+.countyCounters .counter-box.colored .counter {
+    color: var(--color-white)
+}
+
+/* #county(countyCounters) #css ends  */
+
+/* #tensor(tensorTestimonial) #css starts  */
+.tensorTestimonial .clients {
+    color: var(--dark)
+}
+
+.tensorTestimonial .image {
+    height: 55px;
+    width: 55px;
+}
+
+.tensorTestimonial .bg-circle {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-secondary)
+}
+
+.tensorTestimonial .second-div {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.tensorTestimonial .text {
+    color: var(--color-white);
+}
+
+/* #tensor(tensorTestimonial) #css ends  */
+
+/* #ravek(ravekRegistration) #css starts */
+
+.ravekRegistration .mok-block.mok-viewport .container {
+    min-height: calc(100% - 2 * 7.5rem)
+}
+
+.ravekRegistration .mok-block .mok-box {
+    background: var(--color-background-primary);
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 var(--shadow-dark)
+}
+
+.ravekRegistration .mok-block .mok-touch {
+    border-top: solid 0.3125rem var(--color-primary);
+    z-index: 2
+}
+
+.ravekRegistration .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+/* #ravek(ravekRegistration) #css starts */
+
+/* #fanta(fantaFooter) #css starts */
+.fantaFooter {
+    overflow: hidden;
+}
+
+.fantaFooter .footer-wrap {
+    padding-top: var(--spacing-xxl);
+    background: var(--color-background-primary);
+    background-size: cover
+}
+
+.fantaFooter .footer-wrap p {
+    margin-top: var(--spacing-md)
+}
+
+.fantaFooter .footer-links li a {
+    line-height: var(-line-height-lg);
+    color: var(--color-text-primary);
+}
+
+.fantaFooter .footer-category li a {
+    line-height: var(-line-height-lg);
+    color: var(--color-text-primary);
+}
+
+.fantaFooter .copyright {
+    color: var(--color-text-primary);
+    text-align: center;
+    background: var(--color-white);
+    padding: var(--spacing-md) 0 var(--spacing-md) 0;
+}
+
+.fantaFooter footer .first_class {
+    padding-bottom: var(--spacing-md)
+}
+
+.fantaFooter ul {
+    padding-left: var(--spacing-xs)
+}
+
+.fantaFooter footer li {
+    color: var(--color-tertiary);
+}
+
+@media(max-width:768px) {
+    .fantaFooter .footer-wrap h3 {
+        margin-top: 27px
+    }
+}
+
+@media(max-width:320px) {
+    .fantaFooter .copyright {
+        font-size: var(--font-size-sm)
+    }
+}
+
+/* #fanta(fantaFooter) #css ends */
