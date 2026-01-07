@@ -1,0 +1,799 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 9624847124,
+        "projectName": "Skillup",
+        "projectIndustry": "EdTech",
+        "projectSubIndustry": "Online Learning Platform",
+        "projectType": "MOOC",
+        "projectPurpose": "To showcase available courses effectively, build trust with potential students, and drive course enrollments through a user-friendly interface.",
+        "projectAudience": "Students, working professionals looking to upskill, career changers, and lifelong learners.",
+        "projectTags": "Education, Learning, Skills, Courses, Digital, Professional, Academic, Training, Blue, Modern",
+        "projectExamples": "Coursesa (Individual)",
+        "projectTheme": "Trustworthy, Clean, Professional",
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "education": 6.8,
+                    "courses": 4.6,
+                    "professional": 3.7,
+                    "trust": 3.1,
+                    "community": 3.1,
+                    "massive": 3.1,
+                    "clean": 3.1,
+                    "trustworthy": 3.1,
+                    "online": 3.1,
+                    "mooc": 3.1
+                },
+                "accuracy": "10%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "modern": 10,
+                    "professional": 10,
+                    "clean": 9.4,
+                    "academic": 5,
+                    "trustworthy": 2.8,
+                    "bold": 1,
+                    "sans-serif": 0.8,
+                    "tech": 0.7,
+                    "energetic": 0.6,
+                    "neutral": 0.6
+                },
+                "accuracy": "3.4%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "modern": 10,
+                    "professional": 10,
+                    "trust": 9.9,
+                    "clean": 2.7,
+                    "wellness": 1,
+                    "dynamic": 0.9,
+                    "saas": 0.9,
+                    "premium": 0.7,
+                    "vibrant": 0.7,
+                    "calm": 0.7
+                },
+                "accuracy": "3.2%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "courses": 5,
+                    "learning": 4,
+                    "students": 4,
+                    "professional": 4,
+                    "community": 3,
+                    "massive": 3,
+                    "online": 3,
+                    "mooc": 3,
+                    "skills": 3,
+                    "certification": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "courses": 5,
+                    "learning": 4,
+                    "students": 4,
+                    "professional": 4,
+                    "community": 3,
+                    "massive": 3,
+                    "online": 3,
+                    "mooc": 3,
+                    "skills": 3,
+                    "certification": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "teams": 10,
+                    "training": 10,
+                    "careerhelp": 10,
+                    "courses": 5,
+                    "learning": 4,
+                    "students": 4,
+                    "professional": 4,
+                    "community": 3,
+                    "massive": 3,
+                    "online": 3
+                },
+                "accuracy": "20%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "motivational": 10,
+                    "engaging": 10,
+                    "action-oriented": 10,
+                    "courses": 5,
+                    "learning": 4,
+                    "students": 4,
+                    "professional": 4,
+                    "community": 3,
+                    "massive": 3,
+                    "online": 3
+                },
+                "accuracy": "24%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "learning": 10,
+                    "modern": 10,
+                    "students": 6.9,
+                    "digital": 6.8,
+                    "professional": 5.9,
+                    "blue": 5.6,
+                    "training": 3,
+                    "academic": 1.9,
+                    "education": 0.7,
+                    "team": 0.6
+                },
+                "accuracy": "0.5%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "training": 10,
+                    "learning": 10,
+                    "digital": 8.4,
+                    "academic": 5.8,
+                    "students": 5.2,
+                    "performance": 1.4,
+                    "demo": 1.1,
+                    "professional": 0.9,
+                    "online": 0.9,
+                    "career": 0.9
+                },
+                "accuracy": "0.9%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "modern": 10,
+                    "frontend": 3,
+                    "spa": 2.2,
+                    "performance": 1.7,
+                    "animation": 1.7,
+                    "lightweight": 1.7,
+                    "modular": 1.3,
+                    "legacy": 1.3,
+                    "react": 1.3,
+                    "components": 1.3
+                },
+                "accuracy": "0.1%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "modern": 10,
+                    "frontend": 2.2,
+                    "spa": 2.2,
+                    "performance": 1.7,
+                    "animation": 1.7,
+                    "lightweight": 1.7,
+                    "modular": 1.3,
+                    "legacy": 1.3,
+                    "react": 1.3,
+                    "components": 1.3
+                },
+                "accuracy": "0.1%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "flat-light",
+        "projectBrandingAssets": "rocket",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "products\/paize",
+            "steps\/summer",
+            "features\/francis",
+            "clients\/calvo",
+            "certification",
+            "whyus",
+            "testimonials\/taylor",
+            "download\/dalix",
+            "products\/paize",
+            "community",
+            "faqs\/feign",
+            "content\/ceter",
+            "clients\/calvo",
+            "subscribe\/semor",
+            "cta\/cerry",
+            "footers\/flows"
+        ],
+        "projectText": [],
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "9624847124"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Skillup"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "EdTech"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Online Learning Platform"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "MOOC"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "To showcase available courses effectively, build trust with potential students, and drive course enrollments through a user-friendly interface."
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Students, working professionals looking to upskill, career changers, and lifelong learners."
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "Education, Learning, Skills, Courses, Digital, Professional, Academic, Training, Blue, Modern"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Coursesa (Individual)"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Trustworthy, Clean, Professional"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "55%",
+                    "feedback": [
+                        "Keywords such as 'massive' and 'mooc' define a specific niche not supported by the provided text, which refers to general professional courses.",
+                        "The previous list included 'community', which does not appear in the provided project purpose, audience, or tags.",
+                        "Using fractional weights (e.g., 6.8, 3.1) violates the requirement for clean integer weighting.",
+                        "Listing both 'trust' and 'trustworthy' created unnecessary redundancy."
+                    ],
+                    "correct": {
+                        "education": 10,
+                        "learning": 9,
+                        "courses": 9,
+                        "skills": 8,
+                        "training": 8,
+                        "professional": 7,
+                        "digital": 6,
+                        "academic": 5,
+                        "modern": 5,
+                        "trust": 4
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "60%",
+                    "feedback": [
+                        "Fractional weights violate the integer-only requirement.",
+                        "Academic misrepresents the fonts' modern geometric style.",
+                        "Bold contradicts Questrial's single-weight nature."
+                    ],
+                    "correct": {
+                        "geometric": 10,
+                        "minimal": 9,
+                        "clean": 9,
+                        "modern": 8,
+                        "airy": 7,
+                        "versatile": 10,
+                        "friendly": 9,
+                        "balanced": 8,
+                        "readable": 8,
+                        "contemporary": 7
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "60%",
+                    "feedback": [
+                        "Fractional weights like 9.9 violate integer-only constraints.",
+                        "Trust and SaaS are nouns, not descriptive adjectives.",
+                        "Wellness implies soft greens, not deep corporate blues."
+                    ],
+                    "correct": {
+                        "trustworthy": 10,
+                        "professional": 10,
+                        "electric": 9,
+                        "confident": 8,
+                        "authoritative": 9,
+                        "deep": 8,
+                        "reliable": 8,
+                        "secure": 9,
+                        "corporate": 8,
+                        "stable": 7
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Old keywords described service, not visual identity.",
+                        "Logo emphasizes 'Tech' aspect over general 'Education'.",
+                        "Visual descriptors like 'geometric' were missing previously."
+                    ],
+                    "correct": {
+                        "innovative": 10,
+                        "technical": 10,
+                        "constructive": 9,
+                        "smart": 8,
+                        "logical": 8,
+                        "systematic": 7,
+                        "geometric": 7,
+                        "functional": 6,
+                        "bold": 6,
+                        "industrial": 5
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "25%",
+                    "feedback": [
+                        "Old list relied on nouns rather than descriptive theme adjectives.",
+                        "Keywords missed core visual attributes like 'clean' and 'trustworthy'.",
+                        "Weights for key attributes like 'professional' were undervalued."
+                    ],
+                    "correct": {
+                        "professional": 10,
+                        "trustworthy": 10,
+                        "clean": 9,
+                        "credible": 9,
+                        "modern": 8,
+                        "corporate": 8,
+                        "structured": 7,
+                        "sophisticated": 7,
+                        "reliable": 6,
+                        "accessible": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No layout chosen"
+                    ],
+                    "correct": {
+                        "Guide": 9,
+      "Focus": 10,
+      "Offer": 8,
+      "Trust": 9,
+      "Topic": 8,
+      "Value": 10,
+      "Audience": 7,
+      "Help": 6,
+      "Anchor": 8
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "Included nouns like 'courses' instead of descriptive adjectives.",
+                        "'Action-oriented' violates the strict single-word constraint.",
+                        "Missed critical trust-building attributes defined in the purpose."
+                    ],
+                    "correct": {
+                        "inspiring": 10,
+                        "professional": 10,
+                        "trustworthy": 9,
+                        "clear": 9,
+                        "empowering": 8,
+                        "informative": 8,
+                        "accessible": 7,
+                        "engaging": 7,
+                        "credible": 6,
+                        "supportive": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "Included nouns instead of strictly using descriptive adjectives.",
+                        "Fractional numbers violated the integer-only weighting rule.",
+                        "Missed emotional keywords like 'authentic' needed for trust."
+                    ],
+                    "correct": {
+                        "authentic": 10,
+                        "professional": 10,
+                        "diverse": 9,
+                        "engaged": 9,
+                        "modern": 8,
+                        "clean": 8,
+                        "aspirational": 7,
+                        "relatable": 7,
+                        "crisp": 6,
+                        "bright": 6
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "40%",
+                    "feedback": [
+                        "List contained nouns instead of strict adjectives.",
+                        "Fractional weights violate the integer-only requirement.",
+                        "Key theme 'professional' was weighted significantly too low."
+                    ],
+                    "correct": {
+                        "professional": 10,
+                        "clear": 10,
+                        "instructional": 9,
+                        "engaging": 9,
+                        "authentic": 8,
+                        "polished": 8,
+                        "concise": 7,
+                        "modern": 7,
+                        "inspiring": 6,
+                        "practical": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No font chosen"
+                    ],
+                    "correct": {
+                        "primaryFont": "Questrial",
+                        "secondaryFont": "Poppins"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No color chosen"
+                    ],
+                    "correct": {
+                        "primaryColor": "#0056D2",
+                        "secondaryColor": "#0048B0",
+                        "tertiaryColor": "#003F66"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": [
+                    "Perfect Match and looks good."
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No branding assets provided."
+                ],
+                "correct": "gear-with-bulb"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    " The selected layout sections do not align well with the project requirements.",
+                    " The current layout focuses more on generic features rather than the specific needs of an online learning",
+                    " platform aiming to build trust and drive enrollments."
+                ],
+                "correct": [
+                    "navbar/niche",
+                    "hero/handel",
+                    "features/fishy",
+                    "clients/clyne",
+                    "categories/caravan",
+                    "products/pulox",
+                    "learner/ledger",
+                    "testimonials/tolem",
+                    "faqs/favor",
+                    "footers/fund"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.png",
+                    "assets/images/checklist.png",
+                    "assets/images/message.png",
+                    "assets/images/calendar.png",
+                    "assets/images/growth.png",
+                    "assets/images/team.png",
+                    "assets/images/mic.png",
+                    "assets/images/mic.png",
+                    "assets/images/client-abof.png",
+                    "assets/images/client-allsaints.png",
+                    "assets/images/client-lucubrate.png",
+                    "assets/images/client-restaurent.png",
+                    "assets/images/client-rimmel.png",
+                    "assets/images/people-one.jpg",
+                    "assets/images/people-two.jpg",
+                    "assets/images/people-three.jpg",
+                    "assets/images/animation.jpg",
+                    "assets/images/uiux.jpg",
+                    "assets/images/data.jpg",
+                    "assets/images/marketing.jpg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
