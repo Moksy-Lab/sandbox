@@ -1,0 +1,522 @@
+/* #nooks(nooksNavbar) #css starts  */
+.nooksNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.nooksNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.nooksNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.nooksNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #nooks(nooksNavbar) #css ends  */
+
+/* #hoard(hoardHero) #css starts  */
+.hoardHero .Background {
+    background-color: var(--color-background-primary);
+}
+
+.hoardHero .image {
+    margin-top: 30px !important;
+}
+
+.hoardHero .stroke {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-style: italic
+}
+
+.hoardHero .btn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: var(--btn-radius-full);
+}
+
+
+
+/* #hoard(hoardHero) #css ends  */
+
+/* #comex(comexCounters) #css starts  */
+.comexCounters .card-counter {
+    box-shadow: 2px 2px 10px var(--shadow-dark);
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: var(--color-background-primary);
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+
+.comexCounters .card-counter:hover {
+    box-shadow: 4px 4px 20px var(--shadow-light);
+    transition: .3s linear all;
+}
+
+.comexCounters .card-counter {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.comexCounters .card-counter i {
+    font-size: var(--font-size-xxlOne);
+    opacity: 0.2;
+}
+
+.comexCounters .card-counter .count-numbers {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: var(--font-size-xl);
+    display: block;
+}
+
+.comexCounters .card-counter .count-name {
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.8;
+    display: block;
+    font-size: var(--font-size-md);
+}
+
+/* #comex(comexCounters) #css ends  */
+
+/* #flint(flintFeature) #css starts  */
+.flintFeature .card-img-top {
+    max-width: var(--icon-size-xl);
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.flintFeature .card:hover {
+    box-shadow: var(--shadow-light) 0px 10px 15px -3px, var(--shadow-dark) 0px 4px 6px -2px
+}
+
+.flintFeature .card-title {
+    margin-bottom: var(--spacing-md)
+}
+
+.flintFeature .Background {
+    background-color: var(--color-text-primary);
+    padding: var(--spacing-xxl);
+}
+
+
+.flintFeature .stroke {
+    color: var(--color-warning);
+}
+
+.flintFeature .btndecor {
+    background-color: var(--color-warning);
+    border-radius: var(--btn-radius-lg);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding: var(--btn-padding-md);
+    margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 991.98px) {
+    .flintFeature .card-img-top {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flintFeature h5 {
+        text-align: center;
+    }
+}
+
+.flintFeature h2{
+ color: var(--color-white);
+}
+/* #flint(flintFeature) #css ends  */
+
+/* #clen(clenClients) #css starts  */
+.clenClients img {
+    max-height: 50px
+}
+
+.clenClients .btn,
+.clenClients .btn:hover {
+    background-color: var(--color-tertiary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.clenClients .lead {
+    color: var(--dark);
+}
+
+/* #clen(clenClients) #css ends  */
+
+/* #warden(wardenWhyus) #css starts  */
+/* Timeline Container */
+.wardenWhyus .timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-lg) 0;
+    position: relative;
+    list-style: none;
+    padding: var(--spacing-lg) 0;
+    margin: 0;
+}
+
+/* Hide connecting line */
+.wardenWhyus .timeline::before {
+    display: none;
+}
+
+/* Timeline Item */
+.wardenWhyus .timeline-item {
+    position: relative;
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    padding: 0 var(--spacing-md);
+    cursor: default;
+}
+
+/* Timeline Icon */
+.wardenWhyus .timeline-icon {
+    width: 70px;
+    height: 70px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    color: var(--color-background-primary);
+    font-size: var(--font-size-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 10px var(--shadow-light);
+}
+
+/* Timeline Title */
+.wardenWhyus .timeline-title {
+    margin-top: var(--spacing-md);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-secondary);
+}
+
+/* Timeline Description */
+.wardenWhyus .timeline-desc {
+    margin-top: var(--spacing-sm);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tablet Responsive Design */
+@media (max-width: 991.98px) {
+    .wardenWhyus .timeline-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 767.98px) {
+    .wardenWhyus .timeline {
+        gap: var(--spacing-lg);
+    }
+
+    .wardenWhyus .timeline-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: left;
+        padding-left: var(--spacing-xxl);
+    }
+
+    .wardenWhyus .timeline-icon {
+        margin: 0;
+        position: absolute;
+        left: 0;
+    }
+
+    .wardenWhyus .timeline-title,
+    .wardenWhyus .timeline-desc {
+        margin-left: var(--spacing-xxl);
+    }
+}
+
+/* #warden(wardenWhyus) #css ends  */
+
+/* #pirox(piroxProduct) #css starts  */
+.piroxProduct .product-grid {
+    background: var(--color-background-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 22px;
+}
+
+.piroxProduct .product-grid .product-image {
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.piroxProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.piroxProduct .product-grid .product-image a.image:before {
+    content: '';
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    opacity: .1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all ease .35s;
+}
+
+.piroxProduct .product-grid:hover .product-image a.image:before {
+    opacity: 0.4;
+    height: 100%;
+}
+
+.piroxProduct .product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--shadow-dark);
+    transform: scale(.85);
+    transition: all 0.5s ease 0s;
+}
+
+.piroxProduct .product-grid:hover .product-image img {
+    transform: scale(1);
+}
+
+.piroxProduct .product-grid .product-like-icon {
+    color: var(--color-white);
+    font-size: var(--font-size-md);
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.piroxProduct .product-grid:hover .product-like-icon {
+    color: var(--color-secondary);
+    top: 20px;
+    right: 20px;
+    transition-delay: 0.2s;
+}
+
+.piroxProduct .product-grid .product-like-icon:hover {
+    color: var(--color-secondary);
+}
+
+.piroxProduct .product-grid .product-content {
+    padding: 20px 10px;
+    position: relative;
+}
+
+.piroxProduct .product-grid .rating {
+    color: var(--color-warning);
+    font-size: var(--font-size-xs);
+    padding: 0;
+    margin: 0 0 7px;
+    list-style: none;
+}
+
+.piroxProduct .product-grid .rating li.fas {
+    color: var(--color-secondary);
+}
+
+.piroxProduct .product-grid .title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+
+.piroxProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.piroxProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.piroxProduct .product-grid .price {
+    color: var(--color-secondary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+}
+
+.piroxProduct .product-grid .add-to-cart {
+    color: var(--color-background-primary);
+    background: var(--dark);
+    font-size: var(--font-size-sm);
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.piroxProduct .product-grid .add-to-cart:hover {
+    color: var(--color-background-primary);
+}
+
+@media screen and (max-width: 990px) {
+    .piroxProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #pirox(piroxProduct) #css ends  */
+
+/* #tuzar(tuzarTestimonial) #css starts  */
+.tuzarTestimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tuzarTestimonial .card {
+    border-radius: 1rem;
+    box-shadow: 2px -10px 3px var(--color-secondary);
+}
+
+@media(max-width:767px) {
+    .tuzarTestimonial .card {
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw;
+    }
+}
+
+.tuzarTestimonial img {
+    width: 6.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto;
+}
+
+.tuzarTestimonial .col-md-4 {
+    padding: 0 0.5rem;
+}
+
+.tuzarTestimonial .card-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.tuzarTestimonial .card-text {
+    text-align: center;
+    padding: 1rem 2rem;
+    color: var(--dark);
+    line-height: 1.4rem;
+}
+
+.tuzarTestimonial .footer {
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+}
+
+.tuzarTestimonial #name {
+    font-weight: var(--font-weight-semibold);
+    color: var(--dark);
+}
+
+.tuzarTestimonial #position {
+    color: var(--dark);
+}
+
+/* #tuzar(tuzarTestimonial) #css ends  */
+
+/* #regin(reginRegistration) #css starts */
+.reginRegistration .homepage-hero-module {
+    min-height: 50vh;
+    background-image: url(https://images.moksy.com/templates/default/banner/keyboard-background.jpg);
+    background-size: cover;
+    position: relative
+}
+
+.reginRegistration .bg-overlay {
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
+    width: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0
+}
+
+.reginRegistration .bg-primary {
+    background-color: var(--color-secondary) !important
+}
+
+.reginRegistration .btn,
+.reginRegistration .btn-dark:not(:disabled):not(.disabled).active,
+.reginRegistration .btn-dark:not(:disabled):not(.disabled):active {
+    background-color: var(--color-white);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--dark);
+}
+
+.reginRegistration h2 {
+    color: var(--color-white);
+}
+
+.reginRegistration p {
+    color: var(--color-white);
+}
+
+.reginRegistration .white {
+    color: var(--color-white);
+}
+
+/* #regin(reginRegistration) #css ends */
+
+
+
+/* #flores(floresFooter) #css starts */
+
+.floresFooter a {
+    color: var(--color-text-primary);
+}
+
+.floresFooter .nav-link {
+    padding: 0.5rem 0rem;
+}
+
+/* #flores(floresFooter) #css ends */
