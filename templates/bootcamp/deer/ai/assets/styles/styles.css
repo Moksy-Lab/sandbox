@@ -1,0 +1,632 @@
+/* #naive(naiveNavbar) #css starts  */
+.naiveNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.naiveNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.naiveNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.naiveNavbar .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.naiveNavbar .col-3 {
+    padding-left: 0px !important;
+}
+
+/* #naive(naiveNavbar) #css ends  */
+
+/* #handel(handelHero) #css starts  */
+.handelHero .masthead {
+    padding: 3rem 0 7rem;
+    position: relative;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(45deg, var(--color-primary) 0%, var(--color-tertiary) 100%);
+    background-size: cover;
+    z-index: 0;
+}
+
+.handelHero .masthead svg.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.handelHero .masthead h1 {
+    line-height: 1.1;
+    z-index: 1;
+    color: var(--color-white);
+}
+
+.handelHero .masthead a {
+    color: var(--dark);
+    z-index: 1;
+}
+
+.handelHero .masthead a:hover {
+    color: var(--color-secondary);
+}
+
+.handelHero .masthead a:active {
+    text-decoration: none;
+}
+
+.handelHero .masthead .masthead-cards {
+    position: relative;
+    z-index: 1;
+}
+
+.handelHero .masthead .masthead-cards .shape {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.handelHero .masthead .masthead-cards .card {
+    opacity: 1;
+    font-size: .8rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    color: var(--dark);
+    transition: .15s all;
+}
+
+.handelHero .masthead .masthead-cards .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+}
+
+.handelHero .masthead .masthead-cards .card:active {
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-blue:hover {
+    color: var(--color-primary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-green:hover {
+    color: var(--color-secondary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-red:hover {
+    color: var(--color-tertiary);
+}
+
+.handelHero .masthead .masthead-cards .card.border-bottom-yellow:hover {
+    color: var(--color-alert);
+}
+
+.handelHero .masthead-page {
+    padding: 1rem 0 4rem;
+}
+
+
+.handelHero .border-bottom-blue,
+.handelHero .border-bottom-green,
+.handelHero .border-bottom-red,
+.handelHero .border-bottom-yellow {
+    border-bottom: .4rem solid !important;
+}
+
+.handelHero .shadow-lg {
+    box-shadow: 0 2rem 1.5rem -1.5rem var(--shadow-light), 0 0 1.5rem .5rem var(--shadow-light) !important;
+}
+
+.handelHero .border-0 {
+    border: 0 !important;
+}
+
+.handelHero .btn {
+    border-radius: var(--btn-radius-full);
+    background-color: var(--color-white);
+    margin-top: 40px !important;
+}
+
+.handelHero .paragraph {
+    color: var(--color-white);
+}
+
+/* #handel(handelHero) #css ends  */
+
+/* #cerulean(ceruleanCategories) #css starts  */
+    /* Cerulean Categories Component Styles */
+    /* =====  SECTION HEADER  ===== */
+    .ceruleanCategories .categories .section-header {
+        text-align: center;
+        margin-bottom: var(--spacing-2xl);
+      }
+  
+      .ceruleanCategories .categories .section-header h2 {
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+        margin: 0 0 var(--spacing-xs);
+        font-family: var(--font-family-base);
+      }
+  
+      .ceruleanCategories .categories .section-header p {
+        font-size: var(--font-size-md);
+        color: var(--color-text-secondary);
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: var(--font-family-base);
+      }
+  
+      /* =====  CATEGORIES GRID  ===== */
+      .ceruleanCategories .categories-grid {
+        display: grid;
+        gap: var(--spacing-lg);
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+  
+      /* =====  CARD STYLES  ===== */
+      .ceruleanCategories .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: inherit;
+        background: var(--color-surface);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-2xl) var(--spacing-lg);
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition-duration) ease;
+        border: 1px solid var(--color-border);
+        overflow: hidden;
+      }
+  
+      /* Card icon styling */
+      .ceruleanCategories .card .icon {
+        font-size: var(--font-size-3xl);
+        margin-bottom: var(--spacing-md);
+        transition: transform var(--transition-duration) ease;
+      }
+  
+      /* Card title styling */
+      .ceruleanCategories .card .title {
+        font-size: var(--font-size-lg);
+        font-weight: var(--font-weight-semibold);
+        margin: 0;
+        font-family: var(--font-family-base);
+        color: var(--color-text-primary);
+      }
+  
+      /* Card description styling */
+      .ceruleanCategories .card .desc {
+        font-size: var(--font-size-sm);
+        margin-top: var(--spacing-sm);
+        opacity: 0;
+        transform: translateY(6px);
+        transition: opacity var(--transition-duration) ease, transform var(--transition-duration) ease;
+        color: var(--color-text-secondary);
+        text-align: center;
+        font-family: var(--font-family-base);
+      }
+  
+      /* Card hover and focus states */
+      .ceruleanCategories .card:hover,
+      .ceruleanCategories .card:focus,
+      .ceruleanCategories .card:target {
+        background: var(--color-accent);
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+        justify-content: flex-start;
+      }
+  
+      .ceruleanCategories .card:hover .icon,
+      .ceruleanCategories .card:focus .icon,
+      .ceruleanCategories .card:target .icon {
+        transform: scale(1.1);
+      }
+  
+      .ceruleanCategories .card:hover .desc,
+      .ceruleanCategories .card:focus .desc,
+      .ceruleanCategories .card:target .desc {
+        opacity: 1;
+        transform: translateY(0);
+      }
+  
+      /* Focus styles for accessibility */
+      .ceruleanCategories .card:focus {
+        outline: 3px dashed var(--color-primary);
+        outline-offset: 4px;
+      }
+  
+      /* =====  RESPONSIVE DESIGN  ===== */
+      @media (min-width: 1200px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+  
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+  
+      @media (max-width: 767px) {
+        .ceruleanCategories .categories-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+/* #cerulean(ceruleanCategories) #css ends  */
+
+/* #fitful(fitfulFeature) #css starts */
+.fitfulFeature .mok-block img.mok-icon {
+    width: var(--icon-size-xl);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fitfulFeature h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.fitfulFeature h3 {
+    margin-top: 10px;
+}
+
+.fitfulFeature .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+    margin-top: var(--spacing-xl);
+}
+
+.fitfulFeature .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+/* #fitful(fitfulFeature) #css starts */
+
+/* #paule(pauleProduct) #css starts  */
+.pauleProduct .product-grid {
+    background-color: var(--color-background-primary);
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid var(--border-color);
+}
+
+.pauleProduct .product-grid .product-content {
+    padding: 20px 10px 17px;
+    position: relative;
+}
+
+.pauleProduct .product-grid .product-content:after {
+    content: '';
+    background-color: var(--dark);
+    height: 2px;
+    width: 50px;
+    margin: 15px auto 0;
+    display: block;
+    clear: both;
+}
+
+.pauleProduct .product-grid .title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    margin: 0 0 8px;
+}
+
+.pauleProduct .product-grid .title a {
+    color: var(--dark);
+    transition: all 0.3s ease 0s;
+}
+
+.pauleProduct .product-grid .title a:hover {
+    color: var(--color-secondary);
+}
+
+.pauleProduct .product-grid .price {
+    color: var(--dark);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 5px;
+    transition: all 1s ease 0s;
+}
+
+.pauleProduct .product-grid .price span {
+    color: var(--dark);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    text-decoration: line-through;
+    margin: 0 5px 0 0;
+}
+
+.pauleProduct .product-grid .rating {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: all 1s ease 0s;
+}
+
+.pauleProduct .product-grid:hover .price,
+.pauleProduct .product-grid:hover .rating {
+    opacity: 0;
+}
+
+.pauleProduct .product-grid .rating li {
+    color: var(--color-warning);
+    font-size: var(--font-size-xs);
+}
+
+.pauleProduct .product-grid .rating li.far {
+    color: var(--color-secondary);
+}
+
+.pauleProduct .product-grid .product-links {
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transition: all 1s ease 0s;
+}
+
+.pauleProduct .product-grid:hover .product-links {
+    opacity: 1;
+}
+
+.pauleProduct .product-grid .product-links li {
+    margin: 0 2px;
+    display: inline-block;
+}
+
+.pauleProduct .product-grid .product-links li a {
+    color: var(--dark);
+    background: var(--border-color);
+    font-size: var(--font-size-base);
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.pauleProduct .product-grid:hover .product-links li a:hover {
+    color: var(--color-background-primary);
+    background: var(--color-secondary);
+}
+
+.pauleProduct .product-grid .product-image {
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.pauleProduct .product-grid .product-image a.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.pauleProduct .product-grid .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pauleProduct .product-grid .product-image .pic-1 {
+    transition: opacity 300ms ease-in-out;
+}
+
+.pauleProduct .product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+}
+
+.pauleProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.pauleProduct .product-grid .product-image:hover .pic-2 {
+    opacity: 1;
+}
+
+.pauleProduct .product-grid .product-sale-label {
+    color: var(--color-background-primary);
+    background: var(--color-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 990px) {
+    .pauleProduct .product-grid {
+        margin: 0 0 30px;
+    }
+
+    .pauleProduct .product-grid .product-image {
+        height: 300px;
+    }
+}
+
+/* #paule(pauleProduct) #css ends  */
+
+/* #tracey(traceyTestimonial) #css starts  */
+.traceyTestimonial .lead {
+    color: var(--dark);
+}
+
+/* #tracey(traceyTestimonial) #css ends  */
+
+/* #cyron(cyronCTA) #css starts  */
+.cyronCTA .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.cyronCTA .btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.cyronCTA .lead {
+    color: var(--color-text-primary);
+}
+
+/* #cyron(cyronCTA) #css ends  */
+
+/* #tamsyn(tamsynTeam) #css starts */
+.tamsynTeam .mok-block {
+    padding: 3rem 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: var(--color-background-primary);
+}
+
+.tamsynTeam .mok-block img+h5 {
+    margin-top: 1.25rem;
+}
+
+.tamsynTeam .mok-block .row-50 {
+    height: 4rem;
+    width: 100%;
+}
+
+.tamsynTeam .mok-block .row-70 {
+    height: 3rem;
+    width: 100%;
+}
+
+.tamsynTeam .team-img {
+    height: 90px;
+    width: 80px;
+    object-fit: cover;
+}
+
+/* #tamsyn(tamsynTeam) #css ends */
+
+/* #codra(codraClients) #css starts  */
+/* Wrapper */
+.codraClients .logo-slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Track */
+.codraClients .logos-slide {
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+}
+
+/* Logos */
+.codraClients .logos-slide img {
+    width: 150px;
+    height: auto;
+    margin: 0 20px;
+    flex-shrink: 0;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+/* Optional hover zoom */
+.codraClients .logos-slide img:hover {
+    transform: scale(1.05);
+}
+
+/* Infinite scroll animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* #codra(codraClients) #css ends  */
+
+/* #flora(floraFooter) #css starts */
+.floraFooter a {
+    color: var(--color-text-primary)
+}
+
+.floraFooter .shfooter .collapse {
+    display: inherit
+}
+
+.floraFooter .li-custom-class {
+    margin: 10px 0px 10px 0;
+}
+
+@media (max-width:767px) {
+    .floraFooter .shfooter ul {
+        margin-bottom: 0
+    }
+
+    .floraFooter .shfooter .collapse {
+        display: none
+    }
+
+    .floraFooter .shfooter .collapse.show {
+        display: block
+    }
+
+    .floraFooter.shfooter .title .fa-angle-up,
+    .floraFooter.shfooter .title[aria-expanded=true] .fa-angle-down {
+        display: none
+    }
+
+    .floraFooter .shfooter .title[aria-expanded=true] .fa-angle-up {
+        display: block
+    }
+
+    .floraFooter .shfooter .navbar-toggler {
+        display: inline-block;
+        padding: 0
+    }
+
+}
+
+/* #flora(floraFooter) #css ends */
