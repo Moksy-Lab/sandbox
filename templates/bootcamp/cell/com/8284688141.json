@@ -1,0 +1,945 @@
+{
+    "projectRequirements": {
+        "userid": "87ca5aefe7183d3c6b9e208dbb174e4b",
+        "projectId": 8284688141,
+        "projectName": "Cell",
+        "projectIndustry": "EdTech",
+        "projectSubIndustry": "Online Bootcamp",
+        "projectType": "MOOC",
+        "projectPurpose": "To drive immediate user engagement and course enrollment",
+        "projectAudience": "Students and Parents",
+        "projectTags": "Education, Learning, Mentorship, Skills, Bootcamp, Academic, Purple, Youth, Growth, Registration",
+        "projectExamples": "Vibrant, encouraging, trustworthy",
+        "projectTheme": 0,
+        "projectKeywords": {
+            "projectKeywords": {
+                "keywords": {
+                    "education": 10,
+                    "bootcamp": 5.9,
+                    "mooc": 4.9,
+                    "community": 4.9,
+                    "massive": 4.9,
+                    "online": 4.9,
+                    "certification": 4.9,
+                    "youth": 4.2,
+                    "purple": 4.2,
+                    "skills": 4.2
+                },
+                "accuracy": "4%"
+            },
+            "projectFontsKeywords": {
+                "keywords": {
+                    "trustworthy": 10,
+                    "academic": 10,
+                    "modern": 6.5,
+                    "clean": 3.6,
+                    "friendly": 3.4,
+                    "professional": 3.2,
+                    "sans-serif": 3.2,
+                    "readable": 2.7,
+                    "tech": 2.5,
+                    "neutral": 2.2
+                },
+                "accuracy": "3%"
+            },
+            "projectColorsKeywords": {
+                "keywords": {
+                    "vibrant": 10,
+                    "modern": 3.5,
+                    "wellness": 3,
+                    "saas": 2.7,
+                    "clarity": 2.4,
+                    "growth": 2.4,
+                    "friendly": 2.1,
+                    "professional": 2.1,
+                    "calm": 2,
+                    "premium": 2
+                },
+                "accuracy": "3.1%"
+            },
+            "projectBrandAssetsKeywords": {
+                "keywords": {
+                    "bootcamp": 5,
+                    "learning": 4,
+                    "skills": 4,
+                    "academic": 4,
+                    "purple": 4,
+                    "youth": 4,
+                    "growth": 4,
+                    "registration": 4,
+                    "mentorship": 4,
+                    "parents": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectThemeKeywords": {
+                "keywords": {
+                    "bootcamp": 5,
+                    "learning": 4,
+                    "skills": 4,
+                    "academic": 4,
+                    "purple": 4,
+                    "youth": 4,
+                    "growth": 4,
+                    "registration": 4,
+                    "mentorship": 4,
+                    "parents": 3
+                },
+                "accuracy": "2%"
+            },
+            "projectLayoutsKeywords": {
+                "keywords": {
+                    "curriculum": 10,
+                    "modules": 10,
+                    "faqs": 10,
+                    "bootcamp": 5,
+                    "learning": 4,
+                    "skills": 4,
+                    "academic": 4,
+                    "purple": 4,
+                    "youth": 4,
+                    "growth": 4
+                },
+                "accuracy": "24%"
+            },
+            "projectTextsKeywords": {
+                "keywords": {
+                    "educational": 10,
+                    "motivational": 10,
+                    "concise": 10,
+                    "bootcamp": 5,
+                    "learning": 4,
+                    "skills": 4,
+                    "academic": 4,
+                    "purple": 4,
+                    "youth": 4,
+                    "growth": 4
+                },
+                "accuracy": "20%"
+            },
+            "projectImagesKeywords": {
+                "keywords": {
+                    "learning": 10,
+                    "students": 5.8,
+                    "youth": 2.9,
+                    "purple": 2.9,
+                    "academic": 2.9,
+                    "vibrant": 2.4,
+                    "growth": 1.8,
+                    "education": 1,
+                    "user": 1,
+                    "classroom": 0.9
+                },
+                "accuracy": "0.4%"
+            },
+            "projectVideosKeywords": {
+                "keywords": {
+                    "learning": 10,
+                    "bootcamp": 8.8,
+                    "academic": 8.5,
+                    "students": 3.8,
+                    "assessment": 1.9,
+                    "tutorial": 1.6,
+                    "lecture": 1.6,
+                    "online": 1.3,
+                    "engagement": 1.3,
+                    "training": 1.1
+                },
+                "accuracy": "0.8%"
+            },
+            "projectBaseLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 3.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "modular": 1.5
+                },
+                "accuracy": "0%"
+            },
+            "projectSupportLibrariesKeywords": {
+                "keywords": {
+                    "frontend": 2.5,
+                    "spa": 2.5,
+                    "performance": 2,
+                    "lightweight": 2,
+                    "animation": 2,
+                    "legacy": 1.5,
+                    "components": 1.5,
+                    "react": 1.5,
+                    "reactive": 1.5,
+                    "routing": 1.5
+                },
+                "accuracy": "0%"
+            }
+        }
+    },
+    "projectInfo": {
+        "projectBranding": {
+            "fonts": {
+                "primaryFonts": "",
+                "secondaryFonts": "",
+                "thirdFonts": "",
+                "defaultFonts": ""
+            },
+            "colors": {
+                "primaryColor": "",
+                "secondaryColor": "",
+                "thirdColor": "",
+                "defaultColor": ""
+            }
+        },
+        "projectTheme": "",
+        "projectBrandingAssets": "lightbulb",
+        "projectLayout": [
+            "navbar\/nudge",
+            "hero\/hoist",
+            "overview",
+            "products\/paize",
+            "steps\/summer",
+            "features\/francis",
+            "clients\/calvo",
+            "certification",
+            "whyus",
+            "testimonials\/taylor",
+            "download\/dalix",
+            "products\/paize",
+            "community",
+            "faqs\/feign",
+            "content\/ceter",
+            "clients\/calvo",
+            "subscribe\/semor",
+            "cta\/cerry",
+            "footers\/flows"
+        ],
+        "projectText": [],
+        "projectImages": [
+            "url\/success\/green-dart-in-bullseye.jpg"
+        ],
+        "projectVideos": [],
+        "projectBaseLibraries": [],
+        "projectLibraries": {
+            "cssLibraries": [],
+            "jslibraries": []
+        }
+    },
+    "projectReviews": {
+        "projectRequirements": {
+            "userid": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "87ca5aefe7183d3c6b9e208dbb174e4b"
+            },
+            "projectId": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "8284688141"
+            },
+            "projectName": {
+                "accuracy": "100%",
+                "feedback": "Auto-generated and looks good.",
+                "correct": "Cell"
+            },
+            "projectIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "EdTech"
+            },
+            "projectSubIndustry": {
+                "accuracy": "100%",
+                "feedback": "Perfect Match and looks good.",
+                "correct": "Online Bootcamp"
+            },
+            "projectType": {
+                "accuracy": "100%",
+                "feedback": "Commonly searched training type",
+                "correct": "MOOC"
+            },
+            "projectPurpose": {
+                "accuracy": "100%",
+                "feedback": "Clearly outlined what the user actually wants",
+                "correct": "To drive immediate user engagement and course enrollment"
+            },
+            "projectAudience": {
+                "accuracy": "100%",
+                "feedback": "Well-defined target audience",
+                "correct": "Students and Parents"
+            },
+            "projectTags": {
+                "accuracy": "100%",
+                "feedback": "Well-defined tags",
+                "correct": "Education, Learning, Mentorship, Skills, Bootcamp, Academic, Purple, Youth, Growth, Registration"
+            },
+            "projectExamples": {
+                "accuracy": "100%",
+                "feedback": "Good example",
+                "correct": "Byjus"
+            },
+            "projectTheme": {
+                "accuracy": "100%",
+                "feedback": "Well-defined theme",
+                "correct": "Vibrant, encouraging, trustworthy"
+            },
+            "projectKeywords": {
+                "projectKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "The inclusion of 'mooc' and 'massive' suggests a university-style open course platform, which contradicts the personalized, mentorship-focused nature of this project.",
+                        "The old list completely missed 'registration' or 'booking', which is the primary functional goal of the hero section.",
+                        "Visual context was ignored; the specific design constraint 'purple' was missing from the tags.",
+                        "Redundancy occurred with both 'trust' and 'trustworthy' appearing, wasting space that could have been used for audience-specific tags like 'parents' or 'youth'."
+                    ],
+                    "correct": {
+                        "education": 10,
+                        "learning": 9,
+                        "registration": 9,
+                        "mentorship": 8,
+                        "academic": 8,
+                        "bootcamp": 7,
+                        "skills": 7,
+                        "youth": 6,
+                        "growth": 6,
+                        "purple": 5
+                    }
+                },
+                "projectFontsKeywords": {
+                    "accuracy": "60%",
+                    "feedback": [
+                        "Old list used invalid fractional numbers for weights.",
+                        "Academic is an inaccurate descriptor for these sans-serifs.",
+                        "Missed distinct visual traits like geometric and rounded."
+                    ],
+                    "correct": {
+                        "readable": 10,
+                        "neutral": 9,
+                        "versatile": 8,
+                        "grotesque": 7,
+                        "rational": 6,
+                        "geometric": 10,
+                        "friendly": 9,
+                        "modern": 8,
+                        "rounded": 7,
+                        "minimal": 6
+                    }
+                },
+                "projectColorsKeywords": {
+                    "accuracy": "50%",
+                    "feedback": [
+                        "Old weights used invalid fractional numbers.",
+                        "Calm contradicts the high energy of these vivid colors.",
+                        "Saas is a noun, not a descriptive adjective."
+                    ],
+                    "correct": {
+                        "creative": 10,
+                        "regal": 9,
+                        "imaginative": 8,
+                        "visionary": 8,
+                        "innovative": 9,
+                        "youthful": 8,
+                        "playful": 7,
+                        "trustworthy": 10,
+                        "electric": 9,
+                        "reliable": 8
+                    }
+                },
+                "projectBrandAssetsKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "List contained nouns instead of requested descriptive adjectives.",
+                        "Keywords described business goals, not visual logo attributes.",
+                        "Purple is incorrect; the provided logo image is black."
+                    ],
+                    "correct": {
+                        "progressive": 10,
+                        "ascending": 9,
+                        "minimal": 8,
+                        "geometric": 8,
+                        "scalable": 7,
+                        "sequential": 7,
+                        "modern": 6,
+                        "analytical": 6,
+                        "linear": 5,
+                        "rounded": 5
+                    }
+                },
+                "projectThemeKeywords": {
+                    "accuracy": "20%",
+                    "feedback": [
+                        "List consists of nouns, not descriptive adjectives.",
+                        "Keywords define content topics rather than visual theme.",
+                        "Failed to capture the requested emotional vibe."
+                    ],
+                    "correct": {
+                        "vibrant": 10,
+                        "encouraging": 10,
+                        "trustworthy": 10,
+                        "inspiring": 9,
+                        "accessible": 9,
+                        "modern": 8,
+                        "engaging": 8,
+                        "professional": 7,
+                        "dynamic": 7,
+                        "creative": 6
+                    }
+                },
+                "projectLayoutsKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Layout keywords are not ok"
+                    ],
+                    "correct": {
+                        "Guide": 5,
+                        "Access": 10,
+                        "Topic": 7,
+                        "Offer": 9,
+                        "Metrics": 6,
+                        "Audience": 8,
+                        "Trust": 8,
+                        "Value": 9,
+                        "Commerce": 7,
+                        "Anchor": 5
+                    }
+                },
+                "projectTextsKeywords": {
+                    "accuracy": "30%",
+                    "feedback": [
+                        "List contained mostly nouns instead of tone adjectives.",
+                        "Keywords defined topics rather than writing style.",
+                        "Visual descriptors like purple do not define text."
+                    ],
+                    "correct": {
+                        "persuasive": 10,
+                        "engaging": 10,
+                        "trustworthy": 9,
+                        "clear": 9,
+                        "encouraging": 8,
+                        "professional": 8,
+                        "actionable": 7,
+                        "accessible": 7,
+                        "dynamic": 6,
+                        "informative": 6
+                    }
+                },
+                "projectImagesKeywords": {
+                    "accuracy": "25%",
+                    "feedback": [
+                        "List contained mostly nouns instead of descriptive adjectives.",
+                        "Keywords defined subject matter rather than visual style.",
+                        "Used invalid fractional numbers for weights."
+                    ],
+                    "correct": {
+                        "authentic": 10,
+                        "diverse": 9,
+                        "engaging": 9,
+                        "vibrant": 8,
+                        "professional": 8,
+                        "inspiring": 7,
+                        "modern": 7,
+                        "optimistic": 6,
+                        "relatable": 6,
+                        "clear": 5
+                    }
+                },
+                "projectVideosKeywords": {
+                    "accuracy": "10%",
+                    "feedback": [
+                        "List consists mostly of nouns, not descriptive adjectives.",
+                        "Keywords define content types rather than visual style.",
+                        "Used invalid fractional numbers for weights."
+                    ],
+                    "correct": {
+                        "engaging": 10,
+                        "inspiring": 10,
+                        "dynamic": 9,
+                        "authentic": 9,
+                        "professional": 8,
+                        "clear": 8,
+                        "energetic": 7,
+                        "relatable": 7,
+                        "modern": 6,
+                        "polished": 6
+                    }
+                },
+                "projectBaseLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        [
+                            "Keywords must reliably trigger selection of all mandatory base libraries.",
+                            "Use clear, canonical triggers (e.g., grid, forms, icons) instead of vague terms.",
+                            "Prioritise must-have libraries with higher weights and strict serial ordering.",
+                            "Remove filler/ambiguous words to avoid missing required base libraries.",
+                            "Add a fallback rule to auto-include core libraries if any trigger is absent."
+                        ]
+                    ],
+                    "correct": {
+                        "modern": 10,
+                        "responsive": 9,
+                        "frontend": 9,
+                        "components": 8,
+                        "grid": 8,
+                        "spa": 7,
+                        "widgets": 6,
+                        "icons": 6,
+                        "lightweight": 5,
+                        "performance": 5
+                    }
+                },
+                "projectSupportLibrariesKeywords": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips.",
+                        "we can add another libraries if needed"
+                    ],
+                    "correct": {
+                        "animation": 10,
+                        "scroll": 9,
+                        "effects": 9,
+                        "motion": 8,
+                        "transition": 8,
+                        "interactive": 7,
+                        "visuals": 7,
+                        "dynamic": 6,
+                        "responsive": 6,
+                        "enhancement": 5
+                    }
+                }
+            }
+        },
+        "projectInfo": {
+            "projectBranding": {
+                "fonts": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No fonts were chosen"
+                    ],
+                    "correct": {
+                        "primaryFont": "Roboto",
+                        "secondaryFont": "Poppins"
+                    }
+                },
+                "colors": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "No colors were chosen"
+                    ],
+                    "correct": {
+                        "primaryColor": "#9b51e0",
+                        "secondaryColor": "#8c69ff",
+                        "tertiaryColor": "#0080ff"
+                    }
+                }
+            },
+            "projectTheme": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No theme was choosen"
+                ],
+                "correct": "flat-light"
+            },
+            "projectBrandingAssets": {
+                "accuracy": "50%",
+                "feedback": [
+                    "almost picked it right, but choosed the wrong one"
+                ],
+                "correct": "cell"
+            },
+            "projectLayout": {
+                "accuracy": "0%",
+                "feedback": [
+                    "layout was not generated as per requirement",
+                    "lot of snippets were missing"
+                ],
+                "correct": [
+                    "navbar/numb",
+                    "registration/regin",
+                    "categories/caravan",
+                    "features/flynn",
+                    "counters/cazel",
+                    "learner/lithe",
+                    "testimonials/tofu",
+                    "products/patron",
+                    "pricing/pexo",
+                    "footers/flush"
+                ]
+            },
+            "projectText": {
+                "Navigation": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Categories",
+                        "Learner",
+                        "Testimonial",
+                        "Courses",
+                        "Pricing",
+                        "Get Started"
+                    ]
+                },
+                "Headline": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Unlock Your Child's Potential with Cell",
+                        "Find The Perfect Learning Path",
+                        "The CellAdvantage",
+                        "Who is CellFor?",
+                        "Success Stories",
+                        "Popular Classes",
+                        "Membership Plans",
+                        "Company",
+                        "Learn",
+                        "Help"
+                    ]
+                },
+                "Paragraph": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Join a community of parents and learners dedicated to academic excellence and creative growth. Whether your goal is to master coding, improve math scores, or explore digital arts, our personalized curriculum adapts to every student's pace. Sign up today to get a free learning assessment and access to our expert mentorship program. Your future starts here.",
+                        "Explore comprehensive curriculums designed for every stage of your educational journey.",
+                        "Master the fundamentals of visual communication. Perfect for creative minds looking to build a digital portfolio.",
+                        "Build the future with code. From first steps in Python to advanced web development, we make tech accessible.",
+                        "Understand the economy and how to launch ideas. Essential skills for young entrepreneurs.",
+                        "Develop the soft skills that universities and employers value most: leadership, logic, and public speaking.",
+                        "We go beyond textbooks. Our platform offers a holistic learning experience tailored to help students excel academically and personally.",
+                        "Personalized guidance from expert tutors to clear doubts, assist with homework, and keep students motivated.",
+                        "Students build real-world projects to showcase their skills to future colleges, universities, and employers.",
+                        "Earn recognized certificates upon course completion to validate skills and boost academic profiles.",
+                        "Stay connected with your child's learning journey through weekly reports and transparent progress tracking.",
+                        "Interactive lessons for K-12 students to spark curiosity. No prior experience needed.",
+                        "Advanced prep courses designed to give students an edge in university applications.",
+                        "Focused modules for students wanting to master a specific skill like coding or design.",
+                        "A structured, complete curriculum that provides consistency for home education.",
+                        "Cellempowers the next generation of thinkers and creators with personalized, engaging education.",
+                        "© 2025 CellEducation Inc. All rights reserved"
+                    ]
+                },
+                "Button": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Start Free Trial",
+                        "View Design Courses",
+                        "View Tech Courses",
+                        "View Business Courses",
+                        "View Strategy Courses",
+                        "Start Learning Now",
+                        "Check Eligibility & Schedule a Call",
+                        "Start Basic",
+                        "Go Premium",
+                        "Get Ultimate"
+                    ]
+                },
+                "Footer-Nav": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Our Story",
+                        "Methodology",
+                        "Tutors",
+                        "Coding",
+                        "Design",
+                        "Business",
+                        "FAQs",
+                        "Student Portal",
+                        "Contact Us"
+                    ]
+                },
+                "People": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Sarah Jenkins",
+                        "David Ross",
+                        "Emily Chen"
+                    ]
+                },
+                "Job": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Parent of 5th Grader",
+                        "Parent",
+                        "High School Student"
+                    ]
+                },
+                "Announcement": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Trusted by 5,000+ Students & Parents"
+                    ]
+                },
+                "Testimonial": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Cellhas completely changed how my daughter approaches math. She used to be afraid of numbers, but now she loves the interactive puzzles!",
+                        "The coding bootcamp for teens gave my son real-world skills. He built his own website in just three weeks. The mentors are fantastic.",
+                        "I finally understand chemistry! The visual lessons make hard concepts super easy to visualize. I aced my last final thanks to Bloom."
+                    ]
+                },
+                "Product": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Intro to UI/UX Design",
+                        "Graphic Design for Teens",
+                        "Video Editing Essentials",
+                        "Python for Beginners",
+                        "Front-End Web Development",
+                        "Data Science Fundamentals",
+                        "Digital Marketing 101",
+                        "Startup & Entrepreneurship",
+                        "Financial Literacy for Students",
+                        "Public Speaking & Debate",
+                        "Critical Thinking & Logic",
+                        "Project Management Basics",
+                        "Python for Kids",
+                        "Digital Art Basics",
+                        "Math Wizards",
+                        "Public Speaking"
+                    ]
+                },
+                "FAQs": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Portfolio": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Pricing": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Seedling",
+                        "Sapling",
+                        "Bloom"
+                    ]
+                },
+                "Labels": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Student Name",
+                        "Parent Email",
+                        "Phone",
+                        "Design & Arts",
+                        "Technology & Coding",
+                        "Business & Finance",
+                        "Leadership",
+                        "Creative",
+                        "New",
+                        "Young Learners",
+                        "College Aspirants",
+                        "Skill Builders",
+                        "Homeschoolers",
+                        "Beginner Friendly",
+                        "Academic Focus",
+                        "Fast-Track",
+                        "Flexible Learning",
+                        "Access to 1 Subject",
+                        "Parent Dashboard",
+                        "Weekly Quizzes",
+                        "Standard Support",
+                        "All Subjects Access",
+                        "Homework Help",
+                        "Project Reviews",
+                        "Priority Email Support",
+                        "1-on-1 Mentorship",
+                        "Certification Tracks",
+                        "Career Counseling",
+                        "24/7 Live Tutor Access"
+                    ]
+                },
+                "Numbers": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "4.8",
+                        "980+",
+                        "810",
+                        "6000",
+                        "$49.00",
+                        "$39.50",
+                        "$55.00",
+                        "$60.00",
+                        "$29",
+                        "$79",
+                        "$129"
+                    ]
+                },
+                "Placeholder": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "Enter Student Name",
+                        "Enter Parent Email",
+                        "Enter Phone No."
+                    ]
+                },
+                "404": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Phone-Number": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "0800 123 4567"
+                    ]
+                },
+                "Dates": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": []
+                },
+                "Email": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "hello@bloom-edu.com"
+                    ]
+                },
+                "Icons": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Missing Project Context"
+                    ],
+                    "correct": [
+                        "fa-star",
+                        "fa-heart",
+                        "fa-user-plus",
+                        "fa-certificate",
+                        "fa-search",
+                        "fa-shopping-cart",
+                        "fa-random",
+                        "fa-phone",
+                        "fa-envelope",
+                        "fas fa-seedling",
+                        "fas fa-university",
+                        "fas fa-rocket",
+                        "fas fa-user-friends"
+                    ]
+                }
+            },
+            "projectImages": {
+                "accuracy": "0%",
+                "feedback": [
+                    "There was a lack of images in the content.",
+                    "New images need to be added for better coverage.",
+                    "Visuals should align more closely with the project context."
+                ],
+                "correct": [
+                    "assets/images/logo.svg",
+                    "assets/images/student-learning-on-tablet.jpg",
+                    "assets/images/sarah-j.jpg",
+                    "assets/images/david-r.jpg",
+                    "assets/images/emily.jpg",
+                    "assets/images/python-for-kids.jpg",
+                    "assets/images/digital-art-basics.jpg",
+                    "assets/images/math-wizards.jpg",
+                    "assets/images/public-speaking.jpg",
+                    "assets/images/logo.svg"
+                ]
+            },
+            "projectVideos": {
+                "accuracy": "0%",
+                "feedback": [
+                    "No videos need in this template"
+                ],
+                "correct": ""
+            },
+            "projectBaseLibraries": {
+                "accuracy": "0%",
+                "feedback": [
+                    "These libraries are permanent by design.",
+                    "They must always be included in every template without exception."
+                ],
+                "correct": [
+                    "Bootstrap",
+                    "Bootstrap Bundle",
+                    "Bootstrap Icons",
+                    "Remix Icon",
+                    "jQuery",
+                    "jQuery UI",
+                    "jQuery Slim"
+                ]
+            },
+            "projectLibraries": {
+                "cssLibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "Support libraries are case-specific and depend on needs.",
+                        "Most websites require scroll animations as a standard.",
+                        "Not all projects need extra features like sliders or tooltips."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                },
+                "jslibraries": {
+                    "accuracy": "0%",
+                    "feedback": [
+                        "If a CSS library also provides a JS CDN, it should be auto-included.",
+                        "This ensures consistency between style and functionality."
+                    ],
+                    "correct": [
+                        "AOS (Animate On Scroll)"
+                    ]
+                }
+            }
+        }
+    }
+}
